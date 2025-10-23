@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Measurements>
+  <!-- povezava prek regionId + indicatorId -->
+  <Observation id="OB001" regionId="RE02" indicatorId="IN01">
+    <date>2024-01-01</date><value>69.4</value><quality>ok</quality><comment/>
+  </Observation>
+  <Observation id="OB002" regionId="RE08" indicatorId="IN01">
+    <date>2024-01-01</date><value>73.2</value><quality>ok</quality>
+  </Observation>
+  <Observation id="OB003" regionId="RE01" indicatorId="IN01">
+    <date>2024-01-01</date><value>67.1</value>
+  </Observation>
+
+  <Observation id="OB004" regionId="RE02" indicatorId="IN05">
+    <date>2023-12-31</date><value>81.2</value>
+  </Observation>
+  <Observation id="OB005" regionId="RE08" indicatorId="IN05">
+    <date>2023-12-31</date><value>82.0</value>
+  </Observation>
+
+  <Observation id="OB006" regionId="RE02" indicatorId="IN03">
+    <date>2024-02-01</date><value>17.9</value>
+  </Observation>
+  <Observation id="OB007" regionId="RE08" indicatorId="IN03">
+    <date>2024-02-01</date><value>16.3</value>
+  </Observation>
+
+  <Observation id="OB008" regionId="RE02" indicatorId="IN08">
+    <date>2024-01-15</date><value>1390</value>
+  </Observation>
+  <Observation id="OB009" regionId="RE08" indicatorId="IN08">
+    <date>2024-01-15</date><value>1650</value>
+  </Observation>
+
+  <Observation id="OB010" regionId="RE02" indicatorId="IN10">
+    <date>2024-01-20</date><value>42</value>
+  </Observation>
+  <Observation id="OB011" regionId="RE08" indicatorId="IN10">
+    <date>2024-01-20</date><value></value> <!-- prazna vrednost -->
+  </Observation>
+
+  <Observation id="OB012" regionId="RE09" indicatorId="IN01"><date>2024-01-01</date><value>71.0</value></Observation>
+  <Observation id="OB013" regionId="RE09" indicatorId="IN03"><date>2024-02-01</date><value>18.1</value></Observation>
+  <Observation id="OB014" regionId="RE04" indicatorId="IN01"><date>2024-01-01</date><value>68.8</value></Observation>
+  <Observation id="OB015" regionId="RE04" indicatorId="IN05"><date>2023-12-31</date><value>80.4</value></Observation>
+</Measurements>

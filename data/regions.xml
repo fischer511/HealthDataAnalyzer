@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Regions>
+  <Region id="RE01">
+    <name>Pomurska</name><capital>Murska Sobota</capital>
+    <nutsCode>SI011</nutsCode><areaKm2>1337</areaKm2>
+    <population>114163</population><note></note>
+    <createdAt>2024-01-05</createdAt>
+  </Region>
+  <Region id="RE02"><name>Podravska</name><capital>Maribor</capital><nutsCode>SI012</nutsCode><areaKm2>2170</areaKm2><population>324454</population><note>ključna za demo</note><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE03"><name>Koroška</name><capital>Slovenj Gradec</capital><nutsCode>SI013</nutsCode><areaKm2>1041</areaKm2><population>71148</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE04"><name>Savinjska</name><capital>Celje</capital><nutsCode>SI014</nutsCode><areaKm2>2383</areaKm2><population>261605</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE05"><name>Zasavska</name><capital>Trbovlje</capital><nutsCode>SI015</nutsCode><areaKm2>264</areaKm2><population>43046</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE06"><name>Posavska</name><capital>Brežice</capital><nutsCode>SI016</nutsCode><areaKm2>885</areaKm2><population>75922</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE07"><name>Jugovzhodna Slovenija</name><capital>Novo mesto</capital><nutsCode>SI017</nutsCode><areaKm2>2673</areaKm2><population>148598</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE08"><name>Osrednjeslovenska</name><capital>Ljubljana</capital><nutsCode>SI021</nutsCode><areaKm2>2555</areaKm2><population>598323</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE09"><name>Gorenjska</name><capital>Kranj</capital><nutsCode>SI022</nutsCode><areaKm2>2137</areaKm2><population>214137</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE10"><name>Primorsko-notranjska</name><capital>Postojna</capital><nutsCode>SI023</nutsCode><areaKm2>1456</areaKm2><population>54314</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE11"><name>Goriška</name><capital>Nova Gorica</capital><nutsCode>SI024</nutsCode><areaKm2>2325</areaKm2><population>117157</population><createdAt>2024-01-05</createdAt></Region>
+  <Region id="RE12"><name>Obalno-kraška</name><capital>Koper</capital><nutsCode>SI025</nutsCode><areaKm2>1044</areaKm2><population>120070</population><createdAt>2024-01-05</createdAt></Region>
+</Regions>

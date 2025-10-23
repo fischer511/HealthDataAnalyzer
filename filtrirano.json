@@ -1,0 +1,134 @@
+[
+  {
+    "obsId": "OB001",
+    "date": "2024-01-01",
+    "regionId": "RE02",
+    "region": "Podravska",
+    "indicatorId": "IN01",
+    "indicator": "good_health_pct",
+    "indicatorName": "Delež oseb z dobrim zdravjem",
+    "unit": "%",
+    "value": 69.4
+  },
+  {
+    "obsId": "OB002",
+    "date": "2024-01-01",
+    "regionId": "RE08",
+    "region": "Osrednjeslovenska",
+    "indicatorId": "IN01",
+    "indicator": "good_health_pct",
+    "indicatorName": "Delež oseb z dobrim zdravjem",
+    "unit": "%",
+    "value": 73.2
+  },
+  {
+    "obsId": "OB003",
+    "date": "2024-01-01",
+    "regionId": "RE01",
+    "region": "Pomurska",
+    "indicatorId": "IN01",
+    "indicator": "good_health_pct",
+    "indicatorName": "Delež oseb z dobrim zdravjem",
+    "unit": "%",
+    "value": 67.1
+  },
+  {
+    "obsId": "OB006",
+    "date": "2024-02-01",
+    "regionId": "RE02",
+    "region": "Podravska",
+    "indicatorId": "IN03",
+    "indicator": "smokers_pct",
+    "indicatorName": "Delež kadilcev",
+    "unit": "%",
+    "value": 17.9
+  },
+  {
+    "obsId": "OB007",
+    "date": "2024-02-01",
+    "regionId": "RE08",
+    "region": "Osrednjeslovenska",
+    "indicatorId": "IN03",
+    "indicator": "smokers_pct",
+    "indicatorName": "Delež kadilcev",
+    "unit": "%",
+    "value": 16.3
+  },
+  {
+    "obsId": "OB008",
+    "date": "2024-01-15",
+    "regionId": "RE02",
+    "region": "Podravska",
+    "indicatorId": "IN08",
+    "indicator": "median_income",
+    "indicatorName": "Mediana dohodka",
+    "unit": "EUR",
+    "value": 1390.0
+  },
+  {
+    "obsId": "OB009",
+    "date": "2024-01-15",
+    "regionId": "RE08",
+    "region": "Osrednjeslovenska",
+    "indicatorId": "IN08",
+    "indicator": "median_income",
+    "indicatorName": "Mediana dohodka",
+    "unit": "EUR",
+    "value": 1650.0
+  },
+  {
+    "obsId": "OB010",
+    "date": "2024-01-20",
+    "regionId": "RE02",
+    "region": "Podravska",
+    "indicatorId": "IN10",
+    "indicator": "aqi",
+    "indicatorName": "Indeks kakovosti zraka",
+    "unit": "AQI",
+    "value": 42.0
+  },
+  {
+    "obsId": "OB011",
+    "date": "2024-01-20",
+    "regionId": "RE08",
+    "region": "Osrednjeslovenska",
+    "indicatorId": "IN10",
+    "indicator": "aqi",
+    "indicatorName": "Indeks kakovosti zraka",
+    "unit": "AQI",
+    "value": null
+  },
+  {
+    "obsId": "OB012",
+    "date": "2024-01-01",
+    "regionId": "RE09",
+    "region": "Gorenjska",
+    "indicatorId": "IN01",
+    "indicator": "good_health_pct",
+    "indicatorName": "Delež oseb z dobrim zdravjem",
+    "unit": "%",
+    "value": 71.0
+  },
+  {
+    "obsId": "OB013",
+    "date": "2024-02-01",
+    "regionId": "RE09",
+    "region": "Gorenjska",
+    "indicatorId": "IN03",
+    "indicator": "smokers_pct",
+    "indicatorName": "Delež kadilcev",
+    "unit": "%",
+    "value": 18.1
+  },
+  {
+    "obsId": "OB014",
+    "date": "2024-01-01",
+    "regionId": "RE04",
+    "region": "Savinjska",
+    "indicatorId": "IN01",
+    "indicator": "good_health_pct",
+    "indicatorName": "Delež oseb z dobrim zdravjem",
+    "unit": "%",
+    "value": 68.8
+  }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Indicators>
+  <Indicator id="IN01"><code>good_health_pct</code><name>Delež oseb z dobrim zdravjem</name><unit>%</unit><source>SiStat 0868527S</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN02"><code>obesity_pct</code><name>Delež debelosti</name><unit>%</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN03"><code>smokers_pct</code><name>Delež kadilcev</name><unit>%</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN04"><code>phys_active_pct</code><name>Telesno dejavni</name><unit>%</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN05"><code>life_expectancy</code><name>Pričakovana življenjska doba</name><unit>leta</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN06"><code>doctors_per_100k</code><name>Zdravniki na 100k</name><unit>št./100k</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN07"><code>beds_per_100k</code><name>Bolniške postelje na 100k</name><unit>št./100k</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN08"><code>median_income</code><name>Mediana dohodka</name><unit>EUR</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN09"><code>poverty_risk_pct</code><name>Tveganje revščine</name><unit>%</unit><source>SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+  <Indicator id="IN10"><code>aqi</code><name>Indeks kakovosti zraka</name><unit>AQI</unit><source>ARSO/SiStat</source><createdAt>2024-01-05</createdAt></Indicator>
+</Indicators>
