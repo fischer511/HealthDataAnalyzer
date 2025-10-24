@@ -24,46 +24,12 @@ Program vse tri datoteke prebere, poveže podatke prek ID-jev (`regionId`, `indi
 - **Izvoz filtriranih rezultatov** v datoteki `filtrirano.json` in `filtrirano.xml`.
 
 ---
+Vsaka od treh XML datotek opisuje ločeno glavno entiteto (regije, kazalniki, meritve) in vsebuje 10–15 zapisov.
+Vse entitete imajo unikatne ID-je, med seboj so povezane prek atributov regionId in indicatorId.
+Vključena so datumska, številčna in besedilna polja, pa tudi primeri manjkajočih vrednosti (<note></note>, <value></value>).
+S tem so izpolnjene vse zahteve iz navodil glede strukture XML dokumentov.
 
-## Struktura projekta
-data/
-├── regions.xml
-│   └── Regions
-│       ├── Region (id="RE01")
-│       │   ├── name
-│       │   ├── capital
-│       │   ├── nutsCode
-│       │   ├── areaKm2
-│       │   ├── population
-│       │   ├── note
-│       │   └── createdAt
-│       ├── Region (id="RE02")
-│       ├── ...
-│       └── Region (id="RE12")
-│
-├── indicators.xml
-│   └── Indicators
-│       ├── Indicator (id="IN01")
-│       │   ├── code
-│       │   ├── name
-│       │   ├── unit
-│       │   ├── source
-│       │   └── createdAt
-│       ├── Indicator (id="IN02")
-│       ├── ...
-│       └── Indicator (id="IN10")
-│
-└── measurements.xml
-    └── Measurements
-        ├── Observation (id="OB001", regionId="RE02", indicatorId="IN01")
-        │   ├── date
-        │   ├── value
-        │   ├── quality
-        │   └── comment
-        ├── Observation (id="OB002", regionId="RE08", indicatorId="IN01")
-        ├── ...
-        └── Observation (id="OB015", regionId="RE04", indicatorId="IN05")
-
+---
 
 ![alt text](image.png)
 ![alt text](image-1.png)

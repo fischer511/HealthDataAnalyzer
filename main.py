@@ -6,7 +6,8 @@ from pathlib import Path
 
 DATA_DIR = Path("data")
 
-@dataclass
+#Pretvorba XML podatkov v objekte, npr. razrede ali sezname.
+@dataclass 
 class Region:
     id: str; name: str; capital: str
 
@@ -19,7 +20,7 @@ class Observation:
     id: str; regionId: str; indicatorId: str; date: str; value: str
 
 def load_regions():
-    root = ET.parse(DATA_DIR/"regions.xml").getroot()
+    root = ET.parse(DATA_DIR/"regions.xml").getroot() #branje XML datotek
     out = {}
     for r in root.findall("Region"):
         out[r.get("id")] = Region(
@@ -54,6 +55,7 @@ def load_measurements():
         ))
     return obs
 
+#Združite podatke prek ID-jev (npr. naročilo vsebuje artikelId in dobaviteljId).
 def join_data(obs, regions, indicators):
     rows = []
     for o in obs:
@@ -72,6 +74,7 @@ def join_data(obs, regions, indicators):
         })
     return rows
 
+#pogoji glede na argumente, ki jih uporabnik vnese v terminal
 def filter_rows(rows, args):
     def after(d, cutoff): return d and d >= cutoff
     out = []
@@ -100,10 +103,11 @@ def print_table(rows):
     for r in rows:
         print(" | ".join(str(r.get(c,"")).ljust(widths[c]) for c in cols))
 
+#“Shranite filtrirane rezultate v datoteko filtrirano.json.”
 def export_json(rows, path="filtrirano.json"):
     with open(path,"w",encoding="utf-8") as f:
         json.dump(rows,f,ensure_ascii=False,indent=2)
-
+#“Iz istih podatkov ustvarite nov XML (filtrirano.xml).”
 def export_xml(rows, path="filtrirano.xml"):
     root = ET.Element("Filtered")
     for r in rows:
@@ -115,6 +119,7 @@ def export_xml(rows, path="filtrirano.xml"):
             child.text = str(r[k])
     ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
 
+#… izpišite filtrirane rezultate
 def main():
     parser = argparse.ArgumentParser(description="XML → povezava → filter → JSON/XML")
     parser.add_argument("--region", help="npr. Podravska")
@@ -128,8 +133,11 @@ def main():
     indicators = load_indicators()
     obs = load_measurements()
     rows = join_data(obs, regions, indicators)
+    
+    #funkcija za filtriranje:
     filtered = filter_rows(rows, args)
 
+#Filtrirane rezultate izpišite v konzolo v pregledni obliki (tabela, seznam …)
     print_table(filtered)
     export_json(filtered)
     export_xml(filtered)
